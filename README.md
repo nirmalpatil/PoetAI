@@ -65,7 +65,27 @@ numerous business applications, especially in the field of customized marketing
 and messaging
 
 # 1 Introduction
-Poetry is a form of literary work that is often characterized by an interplay of words meant to generate an evocative response in the human mind. A limerick is a short humorous form of verse that has five lines and follows the AABBA rhyme scheme. While a lot of research has been done in the field of Natural Language Understanding, the area pertaining to generation and analysis of poetry based on its qualities remains to be explored. This is mainly because poetry is one of the oldest art forms, and the rules guiding it differ significantly depending on the language and culture. Our goal is to use models like GPT-2 which have been successful at text generation for many custom scenarios like summarising, chat bots and even in poetry generation. The clear challenge we foresee is that models must be able to understand what poetry means and what makes them different from conventional text generation tasks. For this, attributes of poetry like rhyme, rhythm, context, and other characteristics of poem must be quantified for models to learn.
+Poetry is an outcome of creation. It is a form of literary work that is often characterized by an
+interplay of thought-provoking words meant to stimulate the human mind. A limerick is a short
+humorous form of verse that has five lines and follows the AABBA rhyme scheme. What if we
+could use ‘art’-ificial intelligence to create art? While a lot of research has been done in the field of
+Natural Language Understanding, the area pertaining to generation and qualitative analysis of poetry
+still remains to be explored. Even after much research, AI has been criticized for lacking creativity
+and for occasionally producing texts that make no sense. The expected output in this case isn’t a
+simple numerical value or a class label, but rather an art piece that is meant to be creative, expressive,
+and appealing to humans. We derived that, in the context of an Artificial Intelligence algorithm,
+creativity is just the development of clearly stated mathematical objective functions that a model must
+be optimized on. The desired output of creativity can not be captured by conventional loss functions.
+Our main objective is to respond to the question, "What makes this piece of poetry/limerick a good
+one?" while giving objective functions to grade a specific piece of poetry/limerick. Will a large
+language model be able to learn the art of poetry? In this project we used 4 models as described in the
+flow section, GPT2 for limerick generation, LSTM based rhyme scorer for evaluating the rhyming
+33rd Conference on Neural Information Processing Systems (NeurIPS 2019), Vancouver, Canada.
+scheme of the limerick, pretrained sentence transformer model MiniLM-L6-V2 for evaluating context
+of the limericks and Masking BERT for fixing the rhyme of a limerick with a good context score. This
+paper starts with Literature review section followed by methodology which contains the details about
+the architecture of all four models used. All the experiments are listed in Training and Experiment
+section.
 
 # 2 Literature Review
 There have been few attempts in poetry compared to other use cases where GPT-2 is used for, and each of them have employed varied techniques and approaches towards poetry generation. Some attempts with Sonnet and RNNs are also studied to understand the evolution of poetry generation over the time.
