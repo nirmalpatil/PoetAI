@@ -1,13 +1,3 @@
->Bandish Parikh\
->Carnegie Mellon University\
->Pittsburgh, PA 15213\
->bparikh@andrew.cmu.edu
-
->Nirmalsing Patil\
->Carnegie Mellon University\
->Pittsburgh, PA 15213\
->nirmalsp@andrew.cmu.edu
-
 >Aditya Malani\
 >Carnegie Mellon University\
 >Pittsburgh, PA 15213\
@@ -17,6 +7,16 @@ amalani@andrew.cmu.edu
 >Carnegie Mellon University\
 >Pittsburgh, PA 15213\
 adityabi@andrew.cmu.edu
+
+>Bandish Parikh\
+>Carnegie Mellon University\
+>Pittsburgh, PA 15213\
+>bparikh@andrew.cmu.edu
+
+>Nirmalsing Patil\
+>Carnegie Mellon University\
+>Pittsburgh, PA 15213\
+>nirmalsp@andrew.cmu.edu
 
 >Yashash Gaurav\
 >Carnegie Mellon University\
