@@ -23,29 +23,19 @@ adityabi@andrew.cmu.edu
 >Pittsburgh, PA 15213\
 ygaurav@andrew.cmu.edu
 
-'''
-├── LICENSE
+```
 ├── README.md
-├── data
-│   ├── limericks_clean_with_@.csv
-│   ├── limericks_clean_with_@and#.csv
-│   ├── limericks_no_profanity.csv
-│   ├── limericks_no_punc_digit.csv
-│   └── limericks_original.csv
+├── data\
+│   ├── limericks_ballas_oedilf_clean.csv
 ├── evaluations
-│   └── rhyming_evaluation.ipynb
+│   └── RhymeAndContext_Scorer.ipynb
 ├── experiments
-│   └── PoetAI_345M.ipynb
+│   └── PoetAI_GPT2_limerick_generator.ipynb
 ├── preprocessing
-│   └── Limerick_Processing.ipynb
-└── readmeassets
-    └── images
-        ├── context.jpeg
-        ├── eval.png
-        ├── gantt_chart.png
-        ├── metrics_epoch_loss.png
-        └── training_flow.jpeg
-'''
+    └── Limerick_Processing.ipynb
+
+```
+
 # PoetAI
 Generation of Poem by training and fine tuning GPT2
 For the longest time, machine learning models have been deployed to perform
