@@ -1,7 +1,7 @@
-Bandish Parikh
-Carnegie Mellon University
-Pittsburgh, PA 15213
-bparikh@andrew.cmu.edu
+>Bandish Parikh\
+>Carnegie Mellon University\
+>Pittsburgh, PA 15213\
+>bparikh@andrew.cmu.edu
 
 Nirmalsing Patil
 Carnegie Mellon University
