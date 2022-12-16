@@ -157,29 +157,10 @@ Following this, we want to further explore using Mad Kane’s repository of humo
 We are hoping to come up with metrics that can help us understand the performance of our model. Tracking rhyme scheme, and coherence. And if possible add that as a loss that the model may try to minimize.
 
 
-# 5 Research Methods
-
-GPT-2 uses a loss function in the form of Cross Entropy. While that is specifically designed to generate text, adding some more constraints to it would be crucial to make it generate poetry, or more specifically, limericks. The 2 main qualities we want to enforce are rhyme and context. The generated text must be penalized if the AABBA rhyme pattern is not followed, as well as the five lines generated in the form of limericks must tell the same story. 
-
-Tuan Nguyen et al. [9] has been successful in imposing the context constraint in Vietnamese poetry. They used the output of the GPT-2 and fed it to a self-attention LSTM to generate context vectors corresponding to the two lines of poetry that they wanted to contextually synchronize. A MSE loss was calculated between the two context vectors that they wished to contextually synchronize, and the loss was added to the Cross-Entropy loss function of GPT-2. We plan to use the same methodology to generate context vectors for the 5 lines of the limericks, use them to calculate the MSE loss, and add that loss function of the GPT-2. Given below is the figure that summarizes the approach of Tuan Nguyen et al. [9] We tweak the implementation for our specific use case where we had to maintain context between five lines of limericks instead of two.
-
-![Adding Context!](/readmeassets/images/context.jpeg "Adding Context")\
-Figure 1: Adding Context
-
-The prior work done by Mitchell B. Fogelson et al. [3] focused on evaluation of the rhyming criterion based on a metric known as rhyming score. The formula they used is:
-
-![Evaluation Criterion- Rhyming Score!](/readmeassets/images/eval.png "Evaluation Criterion- Rhyming Score")\
-Figure 2: Evaluation Criterion - Rhyming Score
-
-This formula generates a rhyme distance between pairs of lines, taking a value between 0 (very low rhyming) and 1 (very high rhyming). We plan on altering this to generate 0 for perfect rhyming and a high number for low rhyming and add it to the loss functions. This would make sure that the limericks being generated are penalized for not following the specified rhyme pattern, and the model would adapt itself, rather than just using rhyming metric for evaluation.
-
-The overall flow can be best demonstrated with the help of a flowchart
-
-![Overall flow](/readmeassets/images/training_flow.jpeg "Overall flow")
-Figure 3: Overall flow
 
 
-# 7 Conclusion
+
+# 4 Conclusion
 We introduced a transformers based pipeline for limerick generation, evaluation and correction. The
 idea was to utilize deep learning models to generate limericks that appeal to humans. While our
 approach sets up a good baseline for limerick generation and evaluation, there is scope to further
