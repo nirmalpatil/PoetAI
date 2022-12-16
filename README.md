@@ -32,7 +32,9 @@ ygaurav@andrew.cmu.edu
 ├── experiments
 │   └── PoetAI_GPT2_limerick_generator.ipynb
 ├── preprocessing
-    └── Limerick_Processing.ipynb
+│   └── Limerick_Processing.ipynb
+├── PoetAI_Report.pdf
+    
 
 ```
 
