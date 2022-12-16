@@ -1,3 +1,31 @@
+Bandish Parikh
+Carnegie Mellon University
+Pittsburgh, PA 15213
+bparikh@andrew.cmu.edu
+
+Nirmalsing Patil
+Carnegie Mellon University
+Pittsburgh, PA 15213
+nirmalsp@andrew.cmu.edu
+
+Aditya Malani
+Carnegie Mellon University
+Pittsburgh, PA 15213
+amalani@andrew.cmu.edu
+
+Aditya Bindra
+Carnegie Mellon University
+Pittsburgh, PA 15213
+adityabi@andrew.cmu.edu
+
+Yashash Gaurav
+Carnegie Mellon University
+Pittsburgh, PA 15213
+ygaurav@andrew.cmu.edu
+
+
+
+
 # PoetAI
 Generation of Poem by training and fine tuning GPT2
 For the longest time, machine learning models have been deployed to perform
