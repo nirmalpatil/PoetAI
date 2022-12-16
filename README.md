@@ -23,7 +23,7 @@ adityabi@andrew.cmu.edu
 >Pittsburgh, PA 15213\
 ygaurav@andrew.cmu.edu
 
-
+'''
 ├── LICENSE
 ├── README.md
 ├── data
@@ -45,7 +45,7 @@ ygaurav@andrew.cmu.edu
         ├── gantt_chart.png
         ├── metrics_epoch_loss.png
         └── training_flow.jpeg
-
+'''
 # PoetAI
 Generation of Poem by training and fine tuning GPT2
 For the longest time, machine learning models have been deployed to perform
