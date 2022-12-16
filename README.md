@@ -24,7 +24,27 @@ adityabi@andrew.cmu.edu
 ygaurav@andrew.cmu.edu
 
 
-
+├── LICENSE
+├── README.md
+├── data
+│   ├── limericks_clean_with_@.csv
+│   ├── limericks_clean_with_@and#.csv
+│   ├── limericks_no_profanity.csv
+│   ├── limericks_no_punc_digit.csv
+│   └── limericks_original.csv
+├── evaluations
+│   └── rhyming_evaluation.ipynb
+├── experiments
+│   └── PoetAI_345M.ipynb
+├── preprocessing
+│   └── Limerick_Processing.ipynb
+└── readmeassets
+    └── images
+        ├── context.jpeg
+        ├── eval.png
+        ├── gantt_chart.png
+        ├── metrics_epoch_loss.png
+        └── training_flow.jpeg
 
 # PoetAI
 Generation of Poem by training and fine tuning GPT2
